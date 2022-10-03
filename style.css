@@ -1,0 +1,28 @@
+/* style.css */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: ;
+}
+
+body {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+h1 {
+  color: ivory;
+  background-color: #cd5c5c;
+  font-family: "Courier", monospace; 
+}
+
+ul {
+  color: ;
+  background-color: #e19d9d;
+}
+
+.source,
+ol {
+  color: ;
+  background-color: #f2d6d6;
+}
