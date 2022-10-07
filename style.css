@@ -15,10 +15,17 @@ html {
   /* text-align: ; */
 }
 
-/* body { */
+body {
   /* font-size: 16px; */
   /* font-weight: normal; */
-/* } */
+  width: 725px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.index {
+  width: 881px;
+}
 
 h1 {
   color: ivory;
