@@ -13,6 +13,7 @@ html {
 * {
   font-family: Arial, Helvetica, sans-serif;
   /* text-align: ; */
+  /* border: 1px solid red; */
 }
 
 body {
@@ -27,7 +28,8 @@ body.index {
   width: 881px;
 }
 
-h1 {
+h1,
+.source {
   color: ivory;
   background-color: #cd5c5c;
   font-family: "Courier", monospace; 
@@ -38,15 +40,24 @@ h1 {
   /* margin-right: auto; */
 }
 
+.source {
+  width: auto;
+  padding: 6px;
+}
+
 ul {
   /* color: ; */
   background-color: #e19d9d;
 }
 
-.source,
 ol {
   /* color: ; */
   background-color: #f2d6d6;
+}
+
+ul, ol {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 /* #hummus-h1 { */
@@ -59,3 +70,34 @@ ol {
   /* margin-left: auto; */
   /* margin-right: auto; */
 /* } */
+
+#index-list {
+  display: flex;
+  list-style: none;
+  background-color: white;
+  padding: 0;
+}
+
+.button {
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  text-decoration: none;
+  /* padding: 1em 2em; */
+  padding: 18px;
+  font-weight: 500;
+}
+
+.button:hover {
+  background-color: darkslategray;
+  color: white;
+}
+
+#index-list li {
+  margin-left: 21px;
+  margin-right: 62px;
+}
+
+#index-list #hummus-li {
+  margin-right: 110px;
+}
