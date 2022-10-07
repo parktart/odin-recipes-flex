@@ -1,39 +1,54 @@
 /* style.css */
 
-* {
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: ;
+html {
+  box-sizing: border-box; /* Alternate Box Model */
 }
 
-body {
-  font-size: 16px;
-  font-weight: normal;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;  /* Alternate Box Model */
 }
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  /* text-align: ; */
+}
+
+/* body { */
+  /* font-size: 16px; */
+  /* font-weight: normal; */
+/* } */
 
 h1 {
   color: ivory;
   background-color: #cd5c5c;
   font-family: "Courier", monospace; 
+  width: max-content;
+  /* height: 35px; */
+  padding: 8px;
+  /* margin-left: auto; */
+  /* margin-right: auto; */
 }
 
 ul {
-  color: ;
+  /* color: ; */
   background-color: #e19d9d;
 }
 
 .source,
 ol {
-  color: ;
+  /* color: ; */
   background-color: #f2d6d6;
 }
 
-#hummus-h1 {
-  width: 250px;
-  padding: 8px;
-}
+/* #hummus-h1 { */
+  /* width: 250px; */
+  /* padding: 8px; */
+/* } */
 
-#hummus-body {
-  width: 740px;
-  margin-left: auto;
-  margin-right: auto;
-}
+/* #hummus-body { */
+  /* width: 740px; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+/* } */
