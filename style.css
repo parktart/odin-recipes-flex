@@ -33,7 +33,7 @@ h1,
 }
 
 h1 {
-  width: max-content;
+  width: fit-content;
   /* margin-left: auto; */
   /* margin-right: auto; */
 }
@@ -56,6 +56,7 @@ ol {
   list-style: none;
   background-color: white;
   padding: 0;
+  width: max-content;
 }
 
 .button {
@@ -64,7 +65,7 @@ ol {
   color: white;
   text-decoration: none;
   padding: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .button:hover {
@@ -73,7 +74,7 @@ ol {
 }
 
 #index-body li {
-  margin-left: 21px;
+  margin-left: 16px;
   margin-right: 62px;
 }
 
