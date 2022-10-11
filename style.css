@@ -15,12 +15,12 @@ html {
 
 body {
   /* font-size: 16px; */
-  width: 725px;
+  width: 730px;
   margin: 8px auto;  /* horizontal centering */
 }
 
 #index-body {
-  width: 881px;
+  width: 886px;
 }
 
 h1,
@@ -55,7 +55,7 @@ ol {
   list-style: none;
   background-color: white;
   padding: 0;
-  width: max-content;
+  /* width: max-content; */
 }
 
 .button {
