@@ -40,10 +40,29 @@ html {
   justify-content: center;
 }
 
+/* ----------- FOOTER ----------- */
+
 .menu-container.footer {
   background-color: #e19d9d;
   border: 2px solid white;
 }
+
+.all-container {
+  display: flex; /* makes the whole page a flex container */
+  flex-flow: column; /* each item is stacked on top of the next in one big column (the whole page) */
+}
+
+html,
+body,
+.all-container {
+  height: 100%; /* makes that flex container fill the entire browser window */
+}
+
+.photo-grid-container {
+  margin-bottom: auto; /* since the footer has a fixed height, this pushes the footer to the bottom of the all-container */
+}
+
+/* ----------- FOOTER ----------- */
 
 .menu {
   width: 900px;
@@ -79,7 +98,7 @@ a {
 
 .logo:hover {
   background-color: gray;
-  color: white;
+  /* color: white; */
 }
 
 .next a,
@@ -94,16 +113,11 @@ a {
   color: #cd5c5c;
 }
 
-.space {
-  /* height: 60px; */
-}
-
 .photo-grid-container {
   display: flex;
   justify-content: center;
-  margin-bottom: 40px;
-  /* margin-bottom: ; */
   margin-top: 60px;
+  /* margin-bottom: 40px; */
 }
 
 .photo-grid {
@@ -125,16 +139,20 @@ a {
   text-align: center;
 }
 
-  .photo-grid a:hover {
-    opacity: .7;
-  }
+.photo-grid a:hover {
+  opacity: .7;
+}
 
-  .photo-grid p {
-    padding-top: 10px;
-    padding-bottom: 2px;
-  }
+.photo-grid p {
+  padding-top: 10px;
+  padding-bottom: 2px;
+}
 
-  .photo-grid a {
-    /* margin-top: 20px; */
-    margin: 10px 0;
-  }
+.photo-grid a {
+  /* margin-top: 20px; */
+  margin: 10px 0;
+}
+
+#salad-anchor {
+  margin-bottom: 20px;
+}
