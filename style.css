@@ -31,13 +31,18 @@ html {
 }
 
 .youtube-logo {
-  margin: 0 12px;
+  margin: 0 18px;
 }
 
 .menu-container {
   background-color: white;
   display: flex;
   justify-content: center;
+}
+
+.menu-container.footer {
+  background-color: #e19d9d;
+  border: 2px solid white;
 }
 
 .menu {
@@ -60,7 +65,7 @@ a {
 .logo a {
   color: white;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 1.5rem;
+  font-size: 24px; /* instead of 1.5rem bc don't want this to grow */
   padding: 30px 20px;
 }
 
@@ -78,22 +83,27 @@ a {
 }
 
 .next a,
-.previous a {
+.previous a,
+.home a {
   padding: 20px;
 }
 
 .next :hover,
-.previous :hover {
+.previous :hover,
+.home :hover {
   color: #cd5c5c;
 }
 
 .space {
-  height: 60px;
+  /* height: 60px; */
 }
 
 .photo-grid-container {
   display: flex;
   justify-content: center;
+  margin-bottom: 40px;
+  /* margin-bottom: ; */
+  margin-top: 60px;
 }
 
 .photo-grid {
@@ -112,8 +122,19 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
   .photo-grid a:hover {
     opacity: .7;
+  }
+
+  .photo-grid p {
+    padding-top: 10px;
+    padding-bottom: 2px;
+  }
+
+  .photo-grid a {
+    /* margin-top: 20px; */
+    margin: 10px 0;
   }
