@@ -101,15 +101,15 @@ a {
   /* color: white; */
 }
 
-.next a,
-.previous a,
-.home a {
+.next,
+.previous,
+.home {
   padding: 20px;
 }
 
-.next :hover,
-.previous :hover,
-.home :hover {
+a.previous:hover,
+a.next:hover,
+a.home:hover {
   color: #cd5c5c;
 }
 
