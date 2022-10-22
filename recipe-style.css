@@ -1,0 +1,170 @@
+/* ----------- from style.css ----------- */
+
+html {
+  box-sizing: border-box; /* Alternative Box Model */
+  background-color:  #f9ebeb;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;  /* Alternative Box Model */
+}
+
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+  font-family: Arial, Helvetica, sans-serif;
+  color: #3a3b3a;
+  /* border: 1px solid red; */
+}
+
+.widget-container {
+  background-color: #cd5c5c;
+  padding: 8px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.widgets {
+  width: 900px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+a.youtube-logo {
+  margin: 0 18px;
+}
+
+.menu-container {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+}
+
+/* ----------- FOOTER ----------- */
+
+.menu-container.footer {
+  background-color: #e19d9d;
+  border: 2px solid white;
+}
+
+.all-container {
+  display: flex; /* makes the whole page a flex container */
+  flex-flow: column; /* each item is stacked on top of the next in one big column (the whole page) */
+}
+
+html,
+body,
+.all-container {
+  height: 100%; /* makes that flex container fill the entire browser window */
+}
+
+.content-container {
+  margin-bottom: auto; /* since the footer has a fixed height, this pushes the footer to the bottom of the all-container */
+}
+
+/* ----------- FOOTER ----------- */
+
+.menu {
+  width: 900px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+}
+
+a.previous {
+  margin-left: auto;
+}
+
+a {
+  /* color: #3a3b3a; */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a.logo {
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 24px; /* instead of 1.5rem bc don't want this to grow */
+  padding: 30px 20px;
+  width: min-content;
+  background-color: #3a3b3a;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+a.logo:hover {
+  background-color: gray;
+  /* color: white; */
+}
+
+a.next,
+a.previous,
+a.home {
+  padding: 20px;
+}
+
+a.previous:hover,
+a.next:hover,
+a.home:hover {
+  color: #cd5c5c;
+}
+
+/* ----------- from style.css ----------- */
+
+body {
+  margin: 0;
+}
+
+.content-container {
+  display: flex;
+  margin-top: 60px;
+  justify-content: center;
+}
+
+.content {
+  width: 900px;
+  background-color: white;
+  padding: 0 12px;
+}
+
+.recipe-pics-container {
+  /* width: 900px; */
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.recipe-pics-container div {
+  width: 360px;
+  height: 360px;
+}
+
+h1 {
+  /* font-family: "Courier", monospace; */
+  text-align: center;
+  color: white;
+  background-color: #cd5c5c;
+  /* background-color: #e19d9d; */
+  /* margin-top: 0; */
+  padding: 10px;
+  width: fit-content;
+  margin: .67em auto;
+}
+
+ul {
+  background-color: #e19d9d;
+}
+
+ol {
+  background-color: #f2d6d6;
+}
+
+ul, ol {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-inline-start: 30px;
+}
