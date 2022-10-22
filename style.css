@@ -30,7 +30,7 @@ html {
   justify-content: flex-end;
 }
 
-.youtube-logo {
+a.youtube-logo {
   margin: 0 18px;
 }
 
@@ -71,7 +71,7 @@ body,
   align-items: center;
 }
 
-.previous {
+a.previous {
   margin-left: auto;
 }
 
@@ -81,7 +81,7 @@ a {
   font-weight: bold;
 }
 
-.logo {
+a.logo {
   color: white;
   font-family: 'Courier New', Courier, monospace;
   font-size: 24px; /* instead of 1.5rem bc don't want this to grow */
@@ -93,14 +93,14 @@ a {
   /* align-items: center; */
 }
 
-.logo:hover {
+a.logo:hover {
   background-color: gray;
   /* color: white; */
 }
 
-.next,
-.previous,
-.home {
+a.next,
+a.previous,
+a.home {
   padding: 20px;
 }
 
@@ -136,7 +136,7 @@ a.home:hover {
   text-align: center;
 }
 
-.photo-grid a:hover {
+.photo-grid div:hover {
   opacity: .7;
 }
 
